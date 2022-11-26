@@ -1,3 +1,7 @@
+//This program  table useing recursion
+
+
+import java.util.Scanner;
 public class TableRecursion {
     static void table(int num,int count){
         //Termination case
@@ -11,6 +15,10 @@ public class TableRecursion {
     
     }
     public static void main(String[] args) {
-        table(5,1);
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.println("Enter table no");
+            int num= sc.nextInt();
+            table(num,1);
+        }
         }
     }
