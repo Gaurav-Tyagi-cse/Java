@@ -1,4 +1,4 @@
-public class DigitCounr {
+public class DigitCount {
    static void countDigit(int num, int count){
     //Termination case
     if (num == 0) {
